@@ -169,11 +169,5 @@ For now, please see [the original DenSPI repository](https://github.com/uwnlp/de
 The main changes in phrase indexing are in `post.py` and `mips_phrase.py` where Sparc is used for the open-domain QA inference (See [here](https://github.com/jhyuklee/sparc/blob/885729372706e227fa9c566ca51bd88de984710a/mips_phrase.py#L390-L410)).
 
 ## python train.py --data_dir data --metadata_dir bert --output_dir output --bert_model_option 'base_uncased' --train_file train-v1.1.json --predict_file dev-v1.1.json --do_train --do_predict --do_eval
-```bibtex
-@inproceedings{lee2020contextualized,
-  title={Contextualized Sparse Representations for Real-Time Open-Domain Question Answering},
-  author={Lee, Jinhyuk and Seo, Minjoon and Hajishirzi, Hannaneh and Kang, Jaewoo},
-  booktitle={ACL},
-  year={2020}
-}
+```
 ```
